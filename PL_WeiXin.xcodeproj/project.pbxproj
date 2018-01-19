@@ -109,6 +109,8 @@
 		76F7522E2011B5AC00B9588C /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F7522D2011B5AC00B9588C /* MeViewController.m */; };
 		76F752312011B5D700B9588C /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752302011B5D700B9588C /* MainTabBarController.m */; };
 		76F752342011BD1200B9588C /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752332011BD1200B9588C /* SearchResultController.m */; };
+		76F752372011E6D100B9588C /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752362011E6D100B9588C /* PersonModel.m */; };
+		76F7523A2011E72900B9588C /* MeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752392011E72900B9588C /* MeTableViewCell.m */; };
 		DBF09BC6A7791EDB3FE985EE /* libPods-PL_WeiXinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940DBAF92FA623CF8792F787 /* libPods-PL_WeiXinTests.a */; };
 /* End PBXBuildFile section */
 
@@ -272,6 +274,10 @@
 		76F752302011B5D700B9588C /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		76F752322011BD1200B9588C /* SearchResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultController.h; sourceTree = "<group>"; };
 		76F752332011BD1200B9588C /* SearchResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultController.m; sourceTree = "<group>"; };
+		76F752352011E6D100B9588C /* PersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		76F752362011E6D100B9588C /* PersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		76F752382011E72900B9588C /* MeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeTableViewCell.h; sourceTree = "<group>"; };
+		76F752392011E72900B9588C /* MeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeTableViewCell.m; sourceTree = "<group>"; };
 		940DBAF92FA623CF8792F787 /* libPods-PL_WeiXinTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PL_WeiXinTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3F0AEA1AED5A539D2CE178 /* Pods-PL_WeiXinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PL_WeiXinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PL_WeiXinUITests/Pods-PL_WeiXinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A2857EA800CC6F524FB9E305 /* Pods-PL_WeiXinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PL_WeiXinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PL_WeiXinTests/Pods-PL_WeiXinTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -782,6 +788,8 @@
 		76F7521D2011B41200B9588C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				76F752382011E72900B9588C /* MeTableViewCell.h */,
+				76F752392011E72900B9588C /* MeTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -789,6 +797,8 @@
 		76F7521E2011B41800B9588C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				76F752352011E6D100B9588C /* PersonModel.h */,
+				76F752362011E6D100B9588C /* PersonModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1202,7 +1212,9 @@
 				76F751F020117C0500B9588C /* OpenUDID.m in Sources */,
 				76F752252011B55D00B9588C /* ContactsViewController.m in Sources */,
 				76F7520C2011874300B9588C /* UIImage+Common.m in Sources */,
+				76F752372011E6D100B9588C /* PersonModel.m in Sources */,
 				76F75203201184F000B9588C /* InsetsTextField.m in Sources */,
+				76F7523A2011E72900B9588C /* MeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
