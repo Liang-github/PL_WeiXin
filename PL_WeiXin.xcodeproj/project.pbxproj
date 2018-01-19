@@ -97,11 +97,18 @@
 		76F751F720117CC600B9588C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F751F520117CC600B9588C /* Constants.m */; };
 		76F751FA20117CEB00B9588C /* WeChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F751F920117CEB00B9588C /* WeChatHelper.m */; };
 		76F751FD20117DD900B9588C /* ContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F751FC20117DD900B9588C /* ContactsTableViewCell.m */; };
-		76F752002011843200B9588C /* ClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F751FF2011843200B9588C /* ClassView.m */; };
+		76F752002011843200B9588C /* GlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F751FF2011843200B9588C /* GlassView.m */; };
 		76F75203201184F000B9588C /* InsetsTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F75202201184F000B9588C /* InsetsTextField.m */; };
 		76F75206201185A600B9588C /* UIImage+RandomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F75205201185A600B9588C /* UIImage+RandomImage.m */; };
 		76F75209201186A900B9588C /* NSString+Pinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F75208201186A900B9588C /* NSString+Pinyin.m */; };
 		76F7520C2011874300B9588C /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F7520B2011874300B9588C /* UIImage+Common.m */; };
+		76F752222011B50300B9588C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752212011B50300B9588C /* BaseViewController.m */; };
+		76F752252011B55D00B9588C /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752242011B55D00B9588C /* ContactsViewController.m */; };
+		76F752282011B58400B9588C /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752272011B58400B9588C /* ChatViewController.m */; };
+		76F7522B2011B59A00B9588C /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F7522A2011B59A00B9588C /* DiscoverViewController.m */; };
+		76F7522E2011B5AC00B9588C /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F7522D2011B5AC00B9588C /* MeViewController.m */; };
+		76F752312011B5D700B9588C /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752302011B5D700B9588C /* MainTabBarController.m */; };
+		76F752342011BD1200B9588C /* SearchResultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F752332011BD1200B9588C /* SearchResultController.m */; };
 		DBF09BC6A7791EDB3FE985EE /* libPods-PL_WeiXinTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940DBAF92FA623CF8792F787 /* libPods-PL_WeiXinTests.a */; };
 /* End PBXBuildFile section */
 
@@ -241,8 +248,8 @@
 		76F751F920117CEB00B9588C /* WeChatHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatHelper.m; sourceTree = "<group>"; };
 		76F751FB20117DD900B9588C /* ContactsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewCell.h; sourceTree = "<group>"; };
 		76F751FC20117DD900B9588C /* ContactsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewCell.m; sourceTree = "<group>"; };
-		76F751FE2011843200B9588C /* ClassView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassView.h; sourceTree = "<group>"; };
-		76F751FF2011843200B9588C /* ClassView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassView.m; sourceTree = "<group>"; };
+		76F751FE2011843200B9588C /* GlassView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlassView.h; sourceTree = "<group>"; };
+		76F751FF2011843200B9588C /* GlassView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassView.m; sourceTree = "<group>"; };
 		76F75201201184F000B9588C /* InsetsTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsetsTextField.h; sourceTree = "<group>"; };
 		76F75202201184F000B9588C /* InsetsTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsetsTextField.m; sourceTree = "<group>"; };
 		76F75204201185A600B9588C /* UIImage+RandomImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RandomImage.h"; sourceTree = "<group>"; };
@@ -251,6 +258,20 @@
 		76F75208201186A900B9588C /* NSString+Pinyin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pinyin.m"; sourceTree = "<group>"; };
 		76F7520A2011874300B9588C /* UIImage+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
 		76F7520B2011874300B9588C /* UIImage+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		76F752202011B50300B9588C /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		76F752212011B50300B9588C /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		76F752232011B55D00B9588C /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		76F752242011B55D00B9588C /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		76F752262011B58400B9588C /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		76F752272011B58400B9588C /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		76F752292011B59A00B9588C /* DiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		76F7522A2011B59A00B9588C /* DiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		76F7522C2011B5AC00B9588C /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		76F7522D2011B5AC00B9588C /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		76F7522F2011B5D700B9588C /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		76F752302011B5D700B9588C /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		76F752322011BD1200B9588C /* SearchResultController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultController.h; sourceTree = "<group>"; };
+		76F752332011BD1200B9588C /* SearchResultController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultController.m; sourceTree = "<group>"; };
 		940DBAF92FA623CF8792F787 /* libPods-PL_WeiXinTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PL_WeiXinTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3F0AEA1AED5A539D2CE178 /* Pods-PL_WeiXinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PL_WeiXinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PL_WeiXinUITests/Pods-PL_WeiXinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A2857EA800CC6F524FB9E305 /* Pods-PL_WeiXinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PL_WeiXinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PL_WeiXinTests/Pods-PL_WeiXinTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -478,6 +499,12 @@
 		76F751C820117B4000B9588C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				76F7521220119CCC00B9588C /* Main */,
+				76F7521120119CC300B9588C /* Contacts */,
+				76F7521020119CBD00B9588C /* Chat */,
+				76F7520F20119CB600B9588C /* Discover */,
+				76F7520E20119CB000B9588C /* Me */,
+				76F7520D20119CA600B9588C /* Model */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -607,12 +634,172 @@
 			children = (
 				76F751FB20117DD900B9588C /* ContactsTableViewCell.h */,
 				76F751FC20117DD900B9588C /* ContactsTableViewCell.m */,
-				76F751FE2011843200B9588C /* ClassView.h */,
-				76F751FF2011843200B9588C /* ClassView.m */,
+				76F751FE2011843200B9588C /* GlassView.h */,
+				76F751FF2011843200B9588C /* GlassView.m */,
 				76F75201201184F000B9588C /* InsetsTextField.h */,
 				76F75202201184F000B9588C /* InsetsTextField.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		76F7520D20119CA600B9588C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F7520E20119CB000B9588C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				76F7521F2011B41E00B9588C /* Controller */,
+				76F7521E2011B41800B9588C /* Model */,
+				76F7521D2011B41200B9588C /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		76F7520F20119CB600B9588C /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				76F7521C2011B3F800B9588C /* DataSource */,
+				76F7521B2011B3E500B9588C /* Controller */,
+				76F7521A2011B3DE00B9588C /* Model */,
+				76F752192011B3D800B9588C /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		76F7521020119CBD00B9588C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				76F752182011B3C800B9588C /* Controller */,
+				76F752172011B3C200B9588C /* Model */,
+				76F752162011B3BB00B9588C /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		76F7521120119CC300B9588C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				76F752152011B3A700B9588C /* Controller */,
+				76F752142011B3A100B9588C /* View */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		76F7521220119CCC00B9588C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				76F752132011B38900B9588C /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		76F752132011B38900B9588C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F752202011B50300B9588C /* BaseViewController.h */,
+				76F752212011B50300B9588C /* BaseViewController.m */,
+				76F7522F2011B5D700B9588C /* MainTabBarController.h */,
+				76F752302011B5D700B9588C /* MainTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F752142011B3A100B9588C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F752152011B3A700B9588C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F752232011B55D00B9588C /* ContactsViewController.h */,
+				76F752242011B55D00B9588C /* ContactsViewController.m */,
+				76F752322011BD1200B9588C /* SearchResultController.h */,
+				76F752332011BD1200B9588C /* SearchResultController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F752162011B3BB00B9588C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F752172011B3C200B9588C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F752182011B3C800B9588C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F752262011B58400B9588C /* ChatViewController.h */,
+				76F752272011B58400B9588C /* ChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F752192011B3D800B9588C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F7521A2011B3DE00B9588C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F7521B2011B3E500B9588C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F752292011B59A00B9588C /* DiscoverViewController.h */,
+				76F7522A2011B59A00B9588C /* DiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76F7521C2011B3F800B9588C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		76F7521D2011B41200B9588C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F7521E2011B41800B9588C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F7521F2011B41E00B9588C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76F7522C2011B5AC00B9588C /* MeViewController.h */,
+				76F7522D2011B5AC00B9588C /* MeViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E38305F0A6F865607AD94059 /* Frameworks */ = {
@@ -991,22 +1178,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F752222011B50300B9588C /* BaseViewController.m in Sources */,
 				76F75206201185A600B9588C /* UIImage+RandomImage.m in Sources */,
 				76F751F720117CC600B9588C /* Constants.m in Sources */,
 				76F751FA20117CEB00B9588C /* WeChatHelper.m in Sources */,
+				76F752342011BD1200B9588C /* SearchResultController.m in Sources */,
 				76F751EF20117C0500B9588C /* CAXException.cpp in Sources */,
+				76F752282011B58400B9588C /* ChatViewController.m in Sources */,
 				76F751D420117BA200B9588C /* SDWaitingView.m in Sources */,
+				76F7522B2011B59A00B9588C /* DiscoverViewController.m in Sources */,
 				76F751D320117BA200B9588C /* SDPhotoBrowser.m in Sources */,
 				76F751EC20117C0500B9588C /* JSONKit.m in Sources */,
 				76F751EE20117C0500B9588C /* CAStreamBasicDescription.cpp in Sources */,
 				76F751D220117BA200B9588C /* SDBrowserImageView.m in Sources */,
 				76F751FD20117DD900B9588C /* ContactsTableViewCell.m in Sources */,
 				76F751122011794500B9588C /* main.m in Sources */,
+				76F752312011B5D700B9588C /* MainTabBarController.m in Sources */,
+				76F7522E2011B5AC00B9588C /* MeViewController.m in Sources */,
 				76F751ED20117C0500B9588C /* CADebugMacros.cpp in Sources */,
 				76F75209201186A900B9588C /* NSString+Pinyin.m in Sources */,
-				76F752002011843200B9588C /* ClassView.m in Sources */,
+				76F752002011843200B9588C /* GlassView.m in Sources */,
 				76F751042011794500B9588C /* AppDelegate.m in Sources */,
 				76F751F020117C0500B9588C /* OpenUDID.m in Sources */,
+				76F752252011B55D00B9588C /* ContactsViewController.m in Sources */,
 				76F7520C2011874300B9588C /* UIImage+Common.m in Sources */,
 				76F75203201184F000B9588C /* InsetsTextField.m in Sources */,
 			);

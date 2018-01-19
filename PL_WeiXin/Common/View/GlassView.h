@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ClassView : UIView
+@interface GlassView : UIView
 
 @end

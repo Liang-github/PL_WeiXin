@@ -6,9 +6,9 @@
 //  Copyright © 2018年 PengLiang. All rights reserved.
 //
 
-#import "ClassView.h"
+#import "GlassView.h"
 
-@implementation ClassView
+@implementation GlassView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
