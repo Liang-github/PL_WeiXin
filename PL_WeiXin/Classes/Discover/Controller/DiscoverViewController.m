@@ -7,8 +7,16 @@
 //
 
 #import "DiscoverViewController.h"
+#import "Constants.h"
+#import "MomentsTableViewController.h"
 
-@interface DiscoverViewController ()
+@interface DiscoverViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (nonatomic, strong) UITableView *tableView;
+
+@property (nonatomic, copy) NSArray *dataArr;
+
+@property (nonatomic, copy) NSArray *imgArr;
 
 @end
 
@@ -16,22 +24,110 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initializeData];
+    [self buildTableView];
+}
+- (void)initializeData
+{
+    _dataArr = @[
+                 @[ @"朋友圈" ],
+                 @[ @"扫一扫", @"摇一摇" ],
+                 @[ @"附近的人" ],
+                 @[ @"购物", @"游戏" ]
+                 ];
+    
+    _imgArr = @[
+                @[ @"ff_IconShowAlbum" ],
+                @[ @"ff_IconQRCode", @"ff_IconBottle" ],
+                @[ @"ff_IconLocationService" ],
+                @[ @"CreditCard_ShoppingBag", @"MoreGame" ]
+                ];
+}
+- (void)buildTableView
+{
+    _tableView = ({
+        UITableView* tableView = [[UITableView alloc]
+                                  initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,
+                                                           self.view.frame.size.height - 44)
+                                  style:UITableViewStyleGrouped];
+        
+        tableView.delegate = self;
+        tableView.dataSource = self;
+        
+        //调整两个cell之间的分割线的长度
+        tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        
+        tableView;
+    });
+    
+    [self.view addSubview:_tableView];
+}
+#pragma mark - tableview
+- (NSInteger)numberOfSectionsInTableView:(UITableView*)tableView
+{
+    return _dataArr.count;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView*)tableView
+ numberOfRowsInSection:(NSInteger)section
+{
+    NSArray* rowArr = _dataArr[section];
+    return rowArr.count;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UITableViewCell*)tableView:(UITableView*)tableView
+        cellForRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    static NSString* identifier = @"foundCellIdentifier";
+    UITableViewCell* cell =
+    [tableView dequeueReusableCellWithIdentifier:identifier];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                      reuseIdentifier:identifier];
+        //右侧小箭头
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    
+    return cell;
 }
-*/
+
+- (void)tableView:(UITableView*)tableView
+  willDisplayCell:(UITableViewCell*)cell
+forRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    cell.imageView.image =
+    [UIImage imageNamed:_imgArr[indexPath.section][indexPath.row]];
+    cell.textLabel.text = _dataArr[indexPath.section][indexPath.row];
+}
+
+- (CGFloat)tableView:(UITableView*)tableView
+heightForRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    return 44;
+}
+
+- (CGFloat)tableView:(UITableView*)tableView
+heightForHeaderInSection:(NSInteger)section
+{
+    if (section == 0)
+        return 15;
+    
+    return 5;
+}
+
+- (void)tableView:(UITableView*)tableView
+didSelectRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    if (indexPath.section != 0)
+        return;
+    
+    MomentsTableViewController* destinationVC =
+    [[MomentsTableViewController alloc] init];
+    destinationVC.hidesBottomBarWhenPushed = true;
+    destinationVC.navigationItem.title = @"朋友圈";
+    
+    [self.navigationController pushViewController:destinationVC animated:true];
+}
 
 @end

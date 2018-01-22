@@ -14,6 +14,13 @@
 		76E340AC20156B1300B4127F /* CommentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340AB20156B1300B4127F /* CommentTableViewController.m */; };
 		76E340AF20156E8300B4127F /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340AE20156E8300B4127F /* CommentTableViewCell.m */; };
 		76E340B22015715100B4127F /* MomentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340B12015715100B4127F /* MomentsDataSource.m */; };
+		76E340B520157C5B00B4127F /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340B420157C5B00B4127F /* PhotosCollectionViewController.m */; };
+		76E340B820157C7000B4127F /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340B720157C7000B4127F /* PhotoCollectionViewCell.m */; };
+		76E340BB20157F4400B4127F /* SpinningLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340BA20157F4400B4127F /* SpinningLoadingView.m */; };
+		76E340BF20157F9900B4127F /* CoverHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E340BC20157F9900B4127F /* CoverHeaderView.xib */; };
+		76E340C020157F9900B4127F /* CoverHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340BE20157F9900B4127F /* CoverHeaderView.m */; };
+		76E340C32015812700B4127F /* MomentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340C22015812700B4127F /* MomentTableViewCell.m */; };
+		76E340C62015851900B4127F /* MomentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E340C52015851900B4127F /* MomentsTableViewController.m */; };
 		76F751042011794500B9588C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F751032011794500B9588C /* AppDelegate.m */; };
 		76F7510A2011794500B9588C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F751082011794500B9588C /* Main.storyboard */; };
 		76F7510F2011794500B9588C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F7510D2011794500B9588C /* LaunchScreen.storyboard */; };
@@ -151,6 +158,19 @@
 		76E340AE20156E8300B4127F /* CommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
 		76E340B02015715100B4127F /* MomentsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentsDataSource.h; sourceTree = "<group>"; };
 		76E340B12015715100B4127F /* MomentsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentsDataSource.m; sourceTree = "<group>"; };
+		76E340B320157C5B00B4127F /* PhotosCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosCollectionViewController.h; sourceTree = "<group>"; };
+		76E340B420157C5B00B4127F /* PhotosCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosCollectionViewController.m; sourceTree = "<group>"; };
+		76E340B620157C7000B4127F /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		76E340B720157C7000B4127F /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		76E340B920157F4400B4127F /* SpinningLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinningLoadingView.h; sourceTree = "<group>"; };
+		76E340BA20157F4400B4127F /* SpinningLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpinningLoadingView.m; sourceTree = "<group>"; };
+		76E340BC20157F9900B4127F /* CoverHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverHeaderView.xib; sourceTree = "<group>"; };
+		76E340BD20157F9900B4127F /* CoverHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverHeaderView.h; sourceTree = "<group>"; };
+		76E340BE20157F9900B4127F /* CoverHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverHeaderView.m; sourceTree = "<group>"; };
+		76E340C12015812700B4127F /* MomentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentTableViewCell.h; sourceTree = "<group>"; };
+		76E340C22015812700B4127F /* MomentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentTableViewCell.m; sourceTree = "<group>"; };
+		76E340C42015851900B4127F /* MomentsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentsTableViewController.h; sourceTree = "<group>"; };
+		76E340C52015851900B4127F /* MomentsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentsTableViewController.m; sourceTree = "<group>"; };
 		76F750FF2011794500B9588C /* PL_WeiXin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PL_WeiXin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F751022011794500B9588C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76F751032011794500B9588C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -344,6 +364,9 @@
 		76E340A520156A4100B4127F /* CoverHeaderView */ = {
 			isa = PBXGroup;
 			children = (
+				76E340BD20157F9900B4127F /* CoverHeaderView.h */,
+				76E340BE20157F9900B4127F /* CoverHeaderView.m */,
+				76E340BC20157F9900B4127F /* CoverHeaderView.xib */,
 			);
 			path = CoverHeaderView;
 			sourceTree = "<group>";
@@ -351,6 +374,8 @@
 		76E340A620156A4D00B4127F /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				76E340C12015812700B4127F /* MomentTableViewCell.h */,
+				76E340C22015812700B4127F /* MomentTableViewCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -358,6 +383,8 @@
 		76E340A720156A5300B4127F /* SpinningView */ = {
 			isa = PBXGroup;
 			children = (
+				76E340B920157F4400B4127F /* SpinningLoadingView.h */,
+				76E340BA20157F4400B4127F /* SpinningLoadingView.m */,
 			);
 			path = SpinningView;
 			sourceTree = "<group>";
@@ -365,6 +392,10 @@
 		76E340A820156A6300B4127F /* PhotosView */ = {
 			isa = PBXGroup;
 			children = (
+				76E340B320157C5B00B4127F /* PhotosCollectionViewController.h */,
+				76E340B420157C5B00B4127F /* PhotosCollectionViewController.m */,
+				76E340B620157C7000B4127F /* PhotoCollectionViewCell.h */,
+				76E340B720157C7000B4127F /* PhotoCollectionViewCell.m */,
 			);
 			path = PhotosView;
 			sourceTree = "<group>";
@@ -837,6 +868,8 @@
 			children = (
 				76F752292011B59A00B9588C /* DiscoverViewController.h */,
 				76F7522A2011B59A00B9588C /* DiscoverViewController.m */,
+				76E340C42015851900B4127F /* MomentsTableViewController.h */,
+				76E340C52015851900B4127F /* MomentsTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1037,6 +1070,7 @@
 				76F751AE20117A6C00B9588C /* jingdizhiwa.jpg in Resources */,
 				76F751C120117A6C00B9588C /* pic4.jpg in Resources */,
 				76F751A420117A6C00B9588C /* fanguang-3.jpg in Resources */,
+				76E340BF20157F9900B4127F /* CoverHeaderView.xib in Resources */,
 				76F7518D20117A6C00B9588C /* 20.jpg in Resources */,
 				76F751A320117A6C00B9588C /* fanguang-2.jpg in Resources */,
 				76F7519420117A6C00B9588C /* 27.jpg in Resources */,
@@ -1257,13 +1291,16 @@
 				76F75206201185A600B9588C /* UIImage+RandomImage.m in Sources */,
 				76F751F720117CC600B9588C /* Constants.m in Sources */,
 				76E340A12015683B00B4127F /* Moment.m in Sources */,
+				76E340B520157C5B00B4127F /* PhotosCollectionViewController.m in Sources */,
 				76F751FA20117CEB00B9588C /* WeChatHelper.m in Sources */,
 				76F752342011BD1200B9588C /* SearchResultController.m in Sources */,
 				76F751EF20117C0500B9588C /* CAXException.cpp in Sources */,
 				76F752282011B58400B9588C /* ChatViewController.m in Sources */,
 				76F751D420117BA200B9588C /* SDWaitingView.m in Sources */,
 				76F7522B2011B59A00B9588C /* DiscoverViewController.m in Sources */,
+				76E340BB20157F4400B4127F /* SpinningLoadingView.m in Sources */,
 				76E340A42015684600B4127F /* Comment.m in Sources */,
+				76E340C62015851900B4127F /* MomentsTableViewController.m in Sources */,
 				76F751D320117BA200B9588C /* SDPhotoBrowser.m in Sources */,
 				76F751EC20117C0500B9588C /* JSONKit.m in Sources */,
 				76F751EE20117C0500B9588C /* CAStreamBasicDescription.cpp in Sources */,
@@ -1271,8 +1308,10 @@
 				76F751FD20117DD900B9588C /* ContactsTableViewCell.m in Sources */,
 				76F751122011794500B9588C /* main.m in Sources */,
 				76F752312011B5D700B9588C /* MainTabBarController.m in Sources */,
+				76E340B820157C7000B4127F /* PhotoCollectionViewCell.m in Sources */,
 				76F7522E2011B5AC00B9588C /* MeViewController.m in Sources */,
 				76E340AC20156B1300B4127F /* CommentTableViewController.m in Sources */,
+				76E340C020157F9900B4127F /* CoverHeaderView.m in Sources */,
 				76F751ED20117C0500B9588C /* CADebugMacros.cpp in Sources */,
 				76F75209201186A900B9588C /* NSString+Pinyin.m in Sources */,
 				76F752002011843200B9588C /* GlassView.m in Sources */,
@@ -1285,6 +1324,7 @@
 				76F752372011E6D100B9588C /* PersonModel.m in Sources */,
 				76F75203201184F000B9588C /* InsetsTextField.m in Sources */,
 				76F7523A2011E72900B9588C /* MeTableViewCell.m in Sources */,
+				76E340C32015812700B4127F /* MomentTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

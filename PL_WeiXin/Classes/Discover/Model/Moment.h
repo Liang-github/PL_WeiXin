@@ -22,7 +22,7 @@
 
 @property (nonatomic, strong) NSIndexPath *indexPath;
 
-@property (nonatomic, assign) NSInteger *height;
+@property (nonatomic, assign) NSInteger height;
 
 @property (nonatomic, assign) NSInteger contentLineCount;
 
